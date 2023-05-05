@@ -1,0 +1,43 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #393E46;
+  height: 100vh;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  font-size: 2rem;
+  font-family: 'Indie Flower', cursive;
+  color: #3ecca3;
+  padding-bottom: .5em;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Lobster', cursive;
+  font-size: 8rem;
+  font-weight: bold;
+  color: #3ecca3;
+  margin: 20px;
+  width: 50%;
+  margin: 0 auto;
+  padding: .25em 0;
+  text-shadow: 5px 0 #232931;
+}
+
+.dice {
+  display: inline-block;
+  padding: 1em;
+}
